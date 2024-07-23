@@ -2,8 +2,8 @@ name: 02 - Workflow Events
 on: 
   push:
   pull_request:
-  schedule:
-    - cron: "*/5 * * * *" # Trigger action every 5 minutes
+  # schedule:
+    # - cron: "*/5 * * * *" # Trigger action every 5 minutes
   workflow_dispatch: # Allow to trigger action from github ui
 
 jobs:
